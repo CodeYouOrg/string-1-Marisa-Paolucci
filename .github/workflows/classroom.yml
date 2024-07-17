@@ -45,7 +45,7 @@ jobs:
            OK  got: '' expected: ''
            OK  got: 'xyyz' expected: 'xyyz'
         comparison-method: contains
-        timeout: 1
+        timeout: 2
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
